@@ -16,7 +16,11 @@ num = 3
 
 
 # this is a print statement for a variable
+#indent sensitive
 print(my_str)
 print(str_num)
 print(num)
 ######   this doe not work print(str_num + num )
+
+
+
