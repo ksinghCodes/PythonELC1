@@ -18,7 +18,7 @@ my_list.index(3)
 4 not in my_list 
 
 #reordering a list + does not change it
-my_list =[1,24,8,2
+my_list =[1,24,8,2]
 sorted(my_list)
 list(reversed(my_list)) # turns reversed object into a list
 list(reversed(sorted(my_list)))
