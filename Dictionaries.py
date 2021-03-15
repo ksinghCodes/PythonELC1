@@ -11,9 +11,9 @@ ages = {'Kevin': 59, 'alex': 29, 'bob': 40}
 # ages['kevin'] >>> 59
 
 #dictionaries are mutable 
- ages['kayla'] = 21 # appends 
- ages ['kevin'] = 60 # resets
- del ages ['kevin'] # deletes 
+ages ['kayla'] = 21 # appends 
+ages ['kevin'] = 60 # resets
+del ages ['kevin'] # deletes 
 
 # Can still use IN/ not in operations
 # alex in ages >>> true
@@ -30,9 +30,9 @@ colors = dict([('kevin', 'blue'), ('bob', 'green'), ('kayla', 'red')])
 ages.keys() #>>> dict_keys(['kevin','bob','kayla'])
 list(ages.keys()) #>>> cast to make clearly list ['kevin' ..e.tc ]
 ages.values()
-list(ages.Values())
+list(ages.values())
 
 # returns items as list of tuples
 ages.items()
-lsit(ages.items())
+list(ages.items())
 
