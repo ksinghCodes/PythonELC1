@@ -18,7 +18,8 @@ contact_card(age=29, car_model="Honda Civic", name="keith")
 contact_card("keith", age=29, car_model="Honda Civic")
 
 #key word useful with default parameters
-def can_drive(age, driving_age=16)
+def can_drive(age, driving_age=16):
+    pass
 # default paramenters cannot be followed by non default 
 # driving_age = 16, type=,.... 
 
